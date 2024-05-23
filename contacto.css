@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80px;
+    color:crimson;
+    text-align: left;
+  }
+  .oswald{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+body{
+    background-image: url(fondoblanco.png);
+    background-size: cover;
+}
+nav{
+    max-width: 800px;
+    background-color:#ff66c4;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+}
+.menu-horizontal li a{
+    display: block;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu-horizontal li:hover{
+    background-color:coral;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 130px;
+    background-color:lightpink;
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color:brown;
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding:10px 2px;
+    text-decoration: none;
+    text-align: center;
+}
+.logo{
+    border-radius: 100%;
+}
+.inicio{
+    text-align: center;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 27px;
+}
+.caja{
+    margin: 10px; display: flex;
+}
+.columnas {
+    background-color: azure;
+    color: #333;
+    margin: 7px; margin-top: 0px;
+    padding: 5px;
+    text-align: center;
+}
+.caja5{
+    margin: 0px; display: flex; margin-left: 1px;
+    background-color:black;
+}
+.columnas5{
+    color:deeppink;
+    margin: 0px; margin-top: 0px; margin-left: 30px;
+    padding: 5px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+h1{
+    color:black;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 30px;
+    padding: 10px  100px 10px 100px;
+    background-color:darksalmon;
+    margin-left: 375px; margin-right: 225px;
+    
+}
+h2{
+    color: rgb(211, 83, 83);
+    margin-left: 300px;
+}
+h3{
+    color:deeppink;
+    margin-left: 300px;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+p{
+    color:black;
+    margin-left: 300px;
+}
+.link{
+    margin-left: 300px;
+}
+.pie{
+    text-align: left;
+    color:aliceblue;
+    background-image: url(fondodepie.png);
+    padding: 10px 0px 10px 0px;
+}
+.caja{
+    margin: 10px; display: flex;
+}
+.columnas {
+    background-color: azure;
+    color: #333;
+    margin: 7px; margin-top: 0px;
+    padding: 5px;
+    text-align: center;
+}
+a:link{
+color:chocolate;
+}
+a:hover{
+color: darkgreen;
+}
+a:visited{
+color:rgb(148, 22, 22);
+}
+.caja3{
+    margin: 10px; display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.imagen{
+    margin-left: 40px;
+    padding: 5px;
+    background-color:grey;
+}
